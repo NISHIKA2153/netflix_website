@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+html
+{
+    font-size:1.3rem;
+    background-color:black;
+}
+.header
+{
+    display:flex;
+    justify-content:space-around;
+    padding:1rem;
+    align-items:center;
+    color:blue;
+    background:black;
+    padding:1rem;
+    border:2px solid blue;
+    border-radius:.5rem;
+}
+.header .box
+{
+    display:flex;
+    text-decoration:none;
+    word-spacing:1rem;
+    margin:0 10rem;
+}
+.header .box a
+{
+    word-spacing:1rem;
+    text-decoration:none;
+    text-transform:capitalize;
+    color:white; 
+    padding:1rem;
+    margin:0.1rem;
+}
+.header .box a b
+{
+    color:red;
+    text-transform:uppercase;
+    font-size:1.5rem;
+}
+.header .box i
+{
+    text-transform:capitalize;
+    color:white; 
+    padding:1rem;    
+}
+section h3
+{
+    color:white;
+    padding:.9rem;
+}
+section div
+{
+    height:50vh;
+}
